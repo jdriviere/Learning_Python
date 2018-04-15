@@ -1,1 +1,20 @@
-.idea/*
+# Folders to ignore
+# --- ROOT FOLDER ---
+.idea/
+
+# --- BASE FOLDER ---
+Base/Lessons/__pycache__/
+Base/Lessons/tests/
+Base/Projects/App01_BasicCalc/Libs/__pycache__/
+Base/Projects/App01_BasicCalc/Tests/__pycache__/
+Base/Projects/App01_BasicCalc/Tests/.cache/
+
+# --- OOP FOLDER ---
+#OOP/Lessons/
+
+# --- UNIT TESTING FOLDER ---
+Unit_Testing/__pycache__/
+Unit_Testing/.cache/
+Unit_Testing/.vscode/
+Unit_Testing/Lessons/Lesson01/__pycache__/
+Unit_Testing/Lessons/Lesson02/__pycache__/
