@@ -6,13 +6,13 @@
 
 # Import libraries
 try:
-    from Libs.BaseMath import Calc # Import the entire file, to avoid using the wildcard (*)
+    from Libs.BaseMath import Calc  # Import the entire file, to avoid using the wildcard (*)
 except ImportError as error:
     print("ERROR: One or more modules failed to be imported!")
     print("Detailed error -->", error)
 else:
     # Create object instance
-    calc = Calc() # object = (Folder_Name).Imported_Library.Class_Name()
+    calc = Calc()  # object = (Folder_Name).Imported_Library.Class_Name()
     num1 = 6
     num2 = -4
 

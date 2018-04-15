@@ -1,9 +1,11 @@
 import unittest
 
-class TestClass07 (unittest.TestCase):
-    def test_case01 (self):
-        self.assertTrue ('PYTHON'.isupper())
-        print ('\nIn Test_Case01()!')
+
+class TestClass07(unittest.TestCase):
+    def test_case01(self):
+        self.assertTrue('PYTHON'.isupper())
+        print('\nIn Test_Case01()!')
+
 
 """
 NOTE:

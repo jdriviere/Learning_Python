@@ -6,51 +6,55 @@ overridden for your purposes.
 
 import unittest
 
+
 def setUpModule():
     """
     Called ONCE, BEFORE anything else in this module.
     """
-    print ('We are in the setUpModule()!')
+    print('We are in the setUpModule()!')
+
 
 def tearDownModule():
     """
     Called ONCE, AFTER everything else in this module.
     """
-    print ('We are in the tearDownModule()!')
+    print('We are in the tearDownModule()!')
 
-class TestClass06 (unittest.TestCase):
+
+class TestClass06(unittest.TestCase):
     @classmethod
-    def setUpClass (cls):
+    def setUpClass(cls):
         """
         Called ONCE, BEFORE any tests!
         """
-        print ('We are in the setUpClass()!')
-    
+        print('We are in the setUpClass()!')
+
     @classmethod
-    def tearDownClass (cls):
+    def tearDownClass(cls):
         """
         Called ONCE, AFTER all tests -- if setUpClass() was successful!
         """
-        print ('We are in the tearDownClass()!')
-    
-    def setUp (self):
+        print('We are in the tearDownClass()!')
+
+    def setUp(self):
         """
         Called MULTIPLE TIME, BEFORE every test method!
         """
-        print ('\nWe are in the setUp()!')
-    
-    def tearDown (self):
+        print('\nWe are in the setUp()!')
+
+    def tearDown(self):
         """
         Called MULTIPLE TIMES, AFTER every test method!
         """
-        print ('\nWe are in the tearDown()!')
-    
-    def test_case01 (self):
-        self.assertTrue ("PYTHON".isupper())
-    
-    def test_case02 (self):
-        self.assertFalse ("python".isupper())
-    
+        print('\nWe are in the tearDown()!')
+
+    def test_case01(self):
+        self.assertTrue("PYTHON".isupper())
+
+    def test_case02(self):
+        self.assertFalse("python".isupper())
+
+
 if __name__ == '__main__':
     unittest.main()
 

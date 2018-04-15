@@ -17,9 +17,12 @@ NOTE: You can access the class memory location by simply printing
 
       print (var) # Prints <__main__.ClassName object at 0xSomeRandomNum
 """
+
+
 class ClassName:
     """Empty class."""
     pass
+
 
 var1 = ClassName()
 var2 = ClassName()
@@ -51,12 +54,16 @@ As you can tell, the syntax to access a class' attribute(s) is the following:
 
     object.attributeName = value
 """
+
+
 class Point:
     """Class creates new instance of Point."""
-    def reset (self):
+
+    def reset(self):
         """Function resets coordinate points back to origin."""
         self.x = 0
         self.y = 0
+
 
 print('\nTesting attribute accessing...')
 p1 = Point()

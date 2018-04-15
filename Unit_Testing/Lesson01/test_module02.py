@@ -4,7 +4,8 @@ WELCOME TO TEST_MODULE 02
 This is Test_Module02.
 """
 
-def mul (a, b):
+
+def mul(a, b):
     """
 >>> mul (2, 3)
 6
@@ -13,7 +14,8 @@ def mul (a, b):
     """
     return a * b
 
-def add (a, b):
+
+def add(a, b):
     """
 >>> add (2, 3)
 5
@@ -24,4 +26,3 @@ def add (a, b):
 
 # NOTE: Notice the lack of spaces/tabs where the lines
 #       look like command prompts and outputs.
-    
