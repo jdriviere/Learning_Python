@@ -20,7 +20,7 @@
 
 
 def kelvin_to_fahrenheit(temp):
-    """A function that converts Kelvin temperature into Farenheit."""
+    """A function that converts Kelvin temperature into Fahrenheit."""
     assert (temp >= 0), 'A temperature colder than zero cannot exist!'  # 'Assume this, or the other one is true'
     return int((temp - 273) * 1.8) + 32
 
