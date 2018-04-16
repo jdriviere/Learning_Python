@@ -12,13 +12,13 @@
 #
 # And they are used like the following:
 # # module1.imported_function() | module1.imported_variable
-print ('Import Statement:')
+print('Import Statement:')
 import import_test # You DON'T need to put the '.py' extension
 
 # Now, call the module, and then its function/variable
-import_test.print_str ('I was imported from another file!')
-import_test.print_name ('Sally')
-print ('Printing a random value from import:', import_test.random_value)
+import_test.print_str('I was imported from another file!')
+import_test.print_name('Sally')
+print('Printing a random value from import:', import_test.random_value)
 
 # NOTE: A module is loaded only once, regardless of the number
 #       of times it is imported. This prevents the module execution
@@ -29,9 +29,9 @@ print ('Printing a random value from import:', import_test.random_value)
 # from a module into the current namespace. The from...import
 # has the following syntax:
 # from module_name import attribute_name1[, attribute_name2, ..., attribut_nameN]
-print ('\nFrom...Import Statement:')
-from import_test import add
-add (10, 30) # No need to write the module name before the function/variable
+print('\nFrom...Import Statement:')
+from tests.import_test import add
+add(10, 30) # No need to write the module name before the function/variable
 
 # FROM...IMPORT * STATEMENT
 # It is also possible to import all the names from a module into

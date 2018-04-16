@@ -19,7 +19,7 @@ print('While-Loop ended!')
 
 # NOTE: Similar to If-Statements, While-Loops can also be written without the
 #       parentheses and on one-line
-#       while count = 0 : print ('Count is', count)
+#       while count = 0 : print('Count is', count)
 #       But for clean coding purposes, it is best to write as the example above
 
 # While-Loops can also create infinite loops if the condition never becomes false.
